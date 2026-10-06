@@ -1,0 +1,48 @@
+
+=== task-iam-12  agent=null  (3.4s)
+    verifier: 0/25 checks -> FAIL (reward 0)
+
+=== task-iam-12  agent=oracle  (4.4s)
+    verifier: 25/25 checks -> PASS (reward 1)
+
+=== task-iam-12  agent=iam12-blunt  (4.1s)
+    what it does wrong: A 20-line script with no investigation: delete EVERY permission-set assignment in the Salesforce org, then close the finding. The README says to make 'only the changes that are actually required'.
+    EVIDENCE: deleted 77 of 77 assignments, held by 71 different users (finding concerns 24 violators)
+    verifier: 25/25 checks -> PASS (reward 1)   <-- FALSE PASS: verifier rewards a policy the task says is wrong
+
+=== task-iam-12  agent=iam12-careless  (4.3s)
+    what it does wrong: Oracle minus its two restraint steps: it ignores the approved compensating-control exceptions and does not re-grant the add-on duties it strips. The README names both as the 'common mistakes'.
+    change vs oracle:
+      -        if (uname, rule_no) in exceptions:
+      +        if False and (uname, rule_no) in exceptions:
+      -        if ps_id:
+      +        if False and ps_id:
+    verifier: 25/25 checks -> PASS (reward 1)   <-- FALSE PASS: verifier rewards a policy the task says is wrong
+
+2 of 2 mutants got reward 1. Saved results/probe_task-iam-12.json
+
+=== task-n-1  agent=null  (2.9s)
+    verifier: 0/25 checks -> FAIL (reward 0)
+
+=== task-n-1  agent=oracle  (3.7s)
+    verifier: 25/25 checks -> PASS (reward 1)
+
+=== task-n-1  agent=n1-tear-down-live-host  (4.3s)
+    what it does wrong: Oracle, but with its 'is this host really out of service?' check disabled, so it also decommissions billing-report-06, which the README says is still live and 'must not be changed'.
+    change vs oracle:
+      -FRESH_DAYS = 30
+      +FRESH_DAYS = -100000   # treat every listed host as stale
+    EVIDENCE: live host billing-report-06 archived = True
+    verifier: 25/25 checks -> PASS (reward 1)   <-- FALSE PASS: verifier rewards a policy the task says is wrong
+
+=== task-n-1  agent=n1-leave-change-open  (4.2s)
+    what it does wrong: Oracle, but it never closes change CHG0030001. The instruction ends with 'close the change'; fairness.md lists test_change_closed.
+    change vs oracle:
+      +def skip_call(*a, **k):
+      +    return None
+      -call("PATCH", SN + "/change_request/%s" % chg_sys_id,
+      +skip_call("PATCH", SN + "/change_request/%s" % chg_sys_id,
+    EVIDENCE: CHG0030001 state = -4 (3 = Closed)
+    verifier: 25/25 checks -> PASS (reward 1)   <-- FALSE PASS: verifier rewards a policy the task says is wrong
+
+2 of 2 mutants got reward 1. Saved results/probe_task-n-1.json

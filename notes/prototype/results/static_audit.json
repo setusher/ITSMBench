@@ -1,0 +1,1575 @@
+{
+ "repo": {
+  "tasks": 89,
+  "network_public": 89,
+  "verifier_downloads_uv": 72,
+  "pi_versions_baked_into_images": {
+   "0.80.6": 8,
+   "0.80.2": 8
+  },
+  "families": {
+   "pytest": 73,
+   "assertions": 16
+  },
+  "tasks_without_readme": [
+   "task-ep-4"
+  ]
+ },
+ "tasks": [
+  {
+   "task": "task-a-1",
+   "restraint_phrases": 7,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 20,
+   "dynamic_tests": false,
+   "n_guard_like": 2
+  },
+  {
+   "task": "task-a-2",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 20,
+   "dynamic_tests": false,
+   "n_guard_like": 1
+  },
+  {
+   "task": "task-a-31",
+   "restraint_phrases": 9,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 28,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-a-32",
+   "restraint_phrases": 2,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 13,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-a-33",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 34,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-a-35",
+   "restraint_phrases": 7,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 29,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-a-36",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 32,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-a-37",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 29,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-a-38",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 26,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-a-40",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 34,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-a-5",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 20,
+   "dynamic_tests": false,
+   "n_guard_like": 1
+  },
+  {
+   "task": "task-alloc-3",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 8,
+   "dynamic_tests": false,
+   "n_guard_like": 3
+  },
+  {
+   "task": "task-alloc-4",
+   "restraint_phrases": 9,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 12,
+   "dynamic_tests": false,
+   "n_guard_like": 4
+  },
+  {
+   "task": "task-alloc-5",
+   "restraint_phrases": 4,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 11,
+   "dynamic_tests": false,
+   "n_guard_like": 4
+  },
+  {
+   "task": "task-alloc-6",
+   "restraint_phrases": 8,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 21,
+   "dynamic_tests": false,
+   "n_guard_like": 7
+  },
+  {
+   "task": "task-b1",
+   "restraint_phrases": 2,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 9,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b10",
+   "restraint_phrases": 1,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 14,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b11",
+   "restraint_phrases": 2,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 15,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b2",
+   "restraint_phrases": 1,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 14,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b3",
+   "restraint_phrases": 1,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 6,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b4",
+   "restraint_phrases": 1,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 14,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b5",
+   "restraint_phrases": 3,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 17,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b6",
+   "restraint_phrases": 3,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 14,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b7",
+   "restraint_phrases": 2,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 14,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b8",
+   "restraint_phrases": 1,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 16,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-b9",
+   "restraint_phrases": 2,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 14,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-c1",
+   "restraint_phrases": 3,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 17,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-c2",
+   "restraint_phrases": 1,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 6,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-c3",
+   "restraint_phrases": 1,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 14,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-c4",
+   "restraint_phrases": 2,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 16,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-c5",
+   "restraint_phrases": 1,
+   "has_readme": true,
+   "family": "assertions",
+   "n_checks": 17,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-ep-1",
+   "restraint_phrases": 13,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 33,
+   "dynamic_tests": false,
+   "n_guard_like": 6
+  },
+  {
+   "task": "task-ep-10",
+   "restraint_phrases": 9,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 0,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-ep-11",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 12,
+   "dynamic_tests": false,
+   "n_guard_like": 4
+  },
+  {
+   "task": "task-ep-13",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 24,
+   "dynamic_tests": false,
+   "n_guard_like": 7
+  },
+  {
+   "task": "task-ep-14",
+   "restraint_phrases": 13,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 24,
+   "dynamic_tests": false,
+   "n_guard_like": 14
+  },
+  {
+   "task": "task-ep-15",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 12,
+   "dynamic_tests": false,
+   "n_guard_like": 3
+  },
+  {
+   "task": "task-ep-16",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 17,
+   "dynamic_tests": false,
+   "n_guard_like": 4
+  },
+  {
+   "task": "task-ep-17",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 21,
+   "dynamic_tests": false,
+   "n_guard_like": 10
+  },
+  {
+   "task": "task-ep-18",
+   "restraint_phrases": 9,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 18,
+   "dynamic_tests": false,
+   "n_guard_like": 10
+  },
+  {
+   "task": "task-ep-19",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 15,
+   "dynamic_tests": false,
+   "n_guard_like": 6
+  },
+  {
+   "task": "task-ep-2",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 36,
+   "dynamic_tests": false,
+   "n_guard_like": 19
+  },
+  {
+   "task": "task-ep-20",
+   "restraint_phrases": 9,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 26,
+   "dynamic_tests": false,
+   "n_guard_like": 17
+  },
+  {
+   "task": "task-ep-21",
+   "restraint_phrases": 9,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 26,
+   "dynamic_tests": false,
+   "n_guard_like": 13
+  },
+  {
+   "task": "task-ep-22",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 23,
+   "dynamic_tests": false,
+   "n_guard_like": 5
+  },
+  {
+   "task": "task-ep-23",
+   "restraint_phrases": 3,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 29,
+   "dynamic_tests": false,
+   "n_guard_like": 10
+  },
+  {
+   "task": "task-ep-24",
+   "restraint_phrases": 7,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 24,
+   "dynamic_tests": false,
+   "n_guard_like": 11
+  },
+  {
+   "task": "task-ep-25",
+   "restraint_phrases": 3,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 13,
+   "dynamic_tests": false,
+   "n_guard_like": 5
+  },
+  {
+   "task": "task-ep-4",
+   "restraint_phrases": 0,
+   "has_readme": false,
+   "family": "pytest",
+   "n_checks": 10,
+   "dynamic_tests": false,
+   "n_guard_like": 4
+  },
+  {
+   "task": "task-ep-5",
+   "restraint_phrases": 4,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 47,
+   "dynamic_tests": false,
+   "n_guard_like": 12
+  },
+  {
+   "task": "task-ep-7",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 42,
+   "dynamic_tests": false,
+   "n_guard_like": 10
+  },
+  {
+   "task": "task-ep-8",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 10,
+   "dynamic_tests": false,
+   "n_guard_like": 4
+  },
+  {
+   "task": "task-ep-9",
+   "restraint_phrases": 4,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 26,
+   "dynamic_tests": false,
+   "n_guard_like": 13
+  },
+  {
+   "task": "task-grc-2",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 19,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-grc-3",
+   "restraint_phrases": 10,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 1,
+   "dynamic_tests": true,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-grc-4",
+   "restraint_phrases": 7,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 20,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-grc-5",
+   "restraint_phrases": 16,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 24,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-grc-6",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 17,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-grc-7",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 20,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-grc-8",
+   "restraint_phrases": 8,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 18,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-iam-12",
+   "restraint_phrases": 8,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 1,
+   "dynamic_tests": true,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-iam-13",
+   "restraint_phrases": 8,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 22,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-iam-14",
+   "restraint_phrases": 9,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 21,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-iam-15",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 21,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-iam-16",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 19,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-iam-17",
+   "restraint_phrases": 10,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 30,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-iam-18",
+   "restraint_phrases": 7,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 29,
+   "dynamic_tests": false,
+   "n_guard_like": 9
+  },
+  {
+   "task": "task-iam-19",
+   "restraint_phrases": 3,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 28,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-iam-20",
+   "restraint_phrases": 2,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 37,
+   "dynamic_tests": false,
+   "n_guard_like": 18
+  },
+  {
+   "task": "task-n-1",
+   "restraint_phrases": 7,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 25,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-n-10",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 21,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-n-11",
+   "restraint_phrases": 3,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 31,
+   "dynamic_tests": false,
+   "n_guard_like": 1
+  },
+  {
+   "task": "task-n-12",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 25,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-n-13",
+   "restraint_phrases": 7,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 23,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-n-14",
+   "restraint_phrases": 7,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 37,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-n-15",
+   "restraint_phrases": 7,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 5,
+   "dynamic_tests": true,
+   "n_guard_like": 3
+  },
+  {
+   "task": "task-n-2",
+   "restraint_phrases": 1,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 21,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-n-3",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 22,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-n-4",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 35,
+   "dynamic_tests": false,
+   "n_guard_like": 3
+  },
+  {
+   "task": "task-n-5",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 21,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-n-6",
+   "restraint_phrases": 3,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 24,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-n-7",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 23,
+   "dynamic_tests": false,
+   "n_guard_like": 3
+  },
+  {
+   "task": "task-n-8",
+   "restraint_phrases": 6,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 23,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-net-1",
+   "restraint_phrases": 2,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 24,
+   "dynamic_tests": false,
+   "n_guard_like": 12
+  },
+  {
+   "task": "task-ops-1",
+   "restraint_phrases": 5,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 27,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-ops-2",
+   "restraint_phrases": 4,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 20,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-ops-3",
+   "restraint_phrases": 9,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 20,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-ops-4",
+   "restraint_phrases": 10,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 24,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  },
+  {
+   "task": "task-ops-5",
+   "restraint_phrases": 14,
+   "has_readme": true,
+   "family": "pytest",
+   "n_checks": 18,
+   "dynamic_tests": false,
+   "n_guard_like": 0
+  }
+ ],
+ "findings": [
+  {
+   "kind": "SIBLINGS_UNCHECKED",
+   "task": "task-a-1",
+   "where": "tasks/task-a-1/environment/seed.json",
+   "msg": "google-workspace.tokens where userKey='dana.whitfield@northwind.example': verifier names 11 of 13 records; never mentions ['expensify.com', 'quickbooks.intuit.com']"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-a-31",
+   "where": "tasks/task-a-31/README.md",
+   "msg": "README/instruction contain 9 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "ORACLE_CHECKS_MORE",
+   "task": "task-a-32",
+   "where": "tasks/task-a-32/solution/solution.py",
+   "msg": "oracle read-back checks restraint (L169 'readback: every legitimate member kept') but no verifier check looks like a guard"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-a-32",
+   "where": "tasks/task-a-32/README.md",
+   "msg": "README/instruction contain 2 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-a-33",
+   "where": "tasks/task-a-33/README.md",
+   "msg": "README/instruction contain 5 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-a-35",
+   "where": "tasks/task-a-35/README.md",
+   "msg": "README/instruction contain 7 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-a-36",
+   "where": "tasks/task-a-36/README.md",
+   "msg": "README/instruction contain 5 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-a-37",
+   "where": "tasks/task-a-37/README.md",
+   "msg": "README/instruction contain 6 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-a-38",
+   "where": "tasks/task-a-38/README.md",
+   "msg": "README/instruction contain 5 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-a-40",
+   "where": "tasks/task-a-40/README.md",
+   "msg": "README/instruction contain 6 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-alloc-4",
+   "where": "tasks/task-alloc-4/tests/test_outputs.py:26",
+   "msg": "constant `VOL_KEYS` is defined but never used"
+  },
+  {
+   "kind": "SIBLINGS_UNCHECKED",
+   "task": "task-alloc-5",
+   "where": "tasks/task-alloc-5/environment/seed.json",
+   "msg": "bamboohr.time_off_requests where employeeId='457626': verifier names 3 of 4 records; never mentions ['Alex Delgado']"
+  },
+  {
+   "kind": "NO_GUARDS_DECLARED",
+   "task": "task-b1",
+   "where": "tasks/task-b1/tests/assertions.json",
+   "msg": "assertions.json description says: \"...over-remediation stays free...\""
+  },
+  {
+   "kind": "REGEX_GRADED_TEXT",
+   "task": "task-b1",
+   "where": "tasks/task-b1/tests/assertions.json",
+   "msg": "`incident-escalated-to-security` passes if any slack.all_messages record matches a 625-char keyword regex (negation, e.g. 'no need to escalate', also matches)"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-b1",
+   "where": "tasks/task-b1/README.md",
+   "msg": "README/instruction contain 2 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-b11",
+   "where": "tasks/task-b11/README.md",
+   "msg": "README/instruction contain 2 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "NO_GUARDS_DECLARED",
+   "task": "task-b3",
+   "where": "tasks/task-b3/tests/assertions.json",
+   "msg": "assertions.json description says: \"...no untouched-data guards...\""
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-b5",
+   "where": "tasks/task-b5/README.md",
+   "msg": "README/instruction contain 3 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-b6",
+   "where": "tasks/task-b6/README.md",
+   "msg": "README/instruction contain 3 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-b7",
+   "where": "tasks/task-b7/README.md",
+   "msg": "README/instruction contain 2 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-b9",
+   "where": "tasks/task-b9/README.md",
+   "msg": "README/instruction contain 2 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "NO_GUARDS_DECLARED",
+   "task": "task-c1",
+   "where": "tasks/task-c1/tests/assertions.json",
+   "msg": "assertions.json description says: \"...no untouched-data guards...\""
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-c1",
+   "where": "tasks/task-c1/README.md",
+   "msg": "README/instruction contain 3 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "NO_GUARDS_DECLARED",
+   "task": "task-c2",
+   "where": "tasks/task-c2/tests/assertions.json",
+   "msg": "assertions.json description says: \"...no untouched-data guards...\""
+  },
+  {
+   "kind": "SCALAR_COMPARE_ON_LIST",
+   "task": "task-c2",
+   "where": "tasks/task-c2/tests/assertions.json",
+   "msg": "`baseline-payload-exclusion-removed` does field_not_equals(defenderFilesAndFoldersToExclude, 'C:\\\\ProgramData\\\\VireoSync') but the field is a list ([\"C:\\\\ProgramData\\\\VireoSync\"]). grade.js compares String(list), so adding a 2nd element flips the result"
+  },
+  {
+   "kind": "REGEX_GRADED_TEXT",
+   "task": "task-c2",
+   "where": "tasks/task-c2/tests/assertions.json",
+   "msg": "`incident-escalated` passes if any slack.all_messages record matches a 436-char keyword regex (negation, e.g. 'no need to escalate', also matches)"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-c4",
+   "where": "tasks/task-c4/README.md",
+   "msg": "README/instruction contain 2 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "NO_GUARDS_DECLARED",
+   "task": "task-c5",
+   "where": "tasks/task-c5/tests/assertions.json",
+   "msg": "assertions.json description says: \"...over-remediation is free...\""
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-1",
+   "where": "tasks/task-ep-1/tests/test_outputs.py:24",
+   "msg": "helper `_post()` is defined but never called"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-10",
+   "where": "tasks/task-ep-10/tests/test_outputs.py:149",
+   "msg": "constant `KEY_RE` is defined but never used"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-ep-10",
+   "where": "tasks/task-ep-10/README.md",
+   "msg": "README/instruction contain 9 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-14",
+   "where": "tasks/task-ep-14/tests/test_outputs.py:8",
+   "msg": "constant `SLACK` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-22",
+   "where": "tasks/task-ep-22/tests/test_outputs.py:25",
+   "msg": "helper `in_dfw()` is defined but never called"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-23",
+   "where": "tasks/task-ep-23/tests/test_outputs.py:24",
+   "msg": "constant `MAL_TOKEN_USERS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-24",
+   "where": "tasks/task-ep-24/tests/test_outputs.py:22",
+   "msg": "constant `BEL` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-24",
+   "where": "tasks/task-ep-24/tests/test_outputs.py:23",
+   "msg": "constant `VUK` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-24",
+   "where": "tasks/task-ep-24/tests/test_outputs.py:133",
+   "msg": "helper `_gone()` is defined but never called"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-4",
+   "where": "tasks/task-ep-4/tests/test_outputs.py:13",
+   "msg": "constant `WILDCARD` is defined but never used"
+  },
+  {
+   "kind": "SIBLINGS_UNCHECKED",
+   "task": "task-ep-5",
+   "where": "tasks/task-ep-5/environment/seed.json",
+   "msg": "confluence.pages where ownerId='cu-1bcfba76': verifier names 3 of 4 records; never mentions ['cp-404']"
+  },
+  {
+   "kind": "SIBLINGS_UNCHECKED",
+   "task": "task-ep-5",
+   "where": "tasks/task-ep-5/environment/seed.json",
+   "msg": "onedrive.driveItems where driveId='od-sam-torres': verifier names 5 of 6 records; never mentions ['Territory plan 2026.pptx']"
+  },
+  {
+   "kind": "SIBLINGS_UNCHECKED",
+   "task": "task-ep-8",
+   "where": "tasks/task-ep-8/environment/seed.json",
+   "msg": "aws-vpc.networkInterfaces where SubnetId='subnet-326def43334d46ed5': verifier names 7 of 8 records; never mentions ['eni-99c11986365657a02']"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-9",
+   "where": "tasks/task-ep-9/tests/test_outputs.py:17",
+   "msg": "constant `NOW` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-9",
+   "where": "tasks/task-ep-9/tests/test_outputs.py:77",
+   "msg": "constant `EP_LEGACY` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-9",
+   "where": "tasks/task-ep-9/tests/test_outputs.py:81",
+   "msg": "constant `MW_DEBRIS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ep-9",
+   "where": "tasks/task-ep-9/tests/test_outputs.py:136",
+   "msg": "helper `parse_ts()` is defined but never called"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-2",
+   "where": "tasks/task-grc-2/tests/test_outputs.py:12",
+   "msg": "constant `A_IDS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-2",
+   "where": "tasks/task-grc-2/tests/test_outputs.py:13",
+   "msg": "constant `C_IDS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-2",
+   "where": "tasks/task-grc-2/tests/test_outputs.py:14",
+   "msg": "constant `D_IDS` is defined but never used"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-grc-2",
+   "where": "tasks/task-grc-2/README.md",
+   "msg": "README/instruction contain 5 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-grc-3",
+   "where": "tasks/task-grc-3/README.md",
+   "msg": "README/instruction contain 10 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-4",
+   "where": "tasks/task-grc-4/tests/test_outputs.py:14",
+   "msg": "constant `ROLE_DENY` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-4",
+   "where": "tasks/task-grc-4/tests/test_outputs.py:22",
+   "msg": "constant `GROUP_DENY` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-4",
+   "where": "tasks/task-grc-4/tests/test_outputs.py:29",
+   "msg": "constant `APP_DENY` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-4",
+   "where": "tasks/task-grc-4/tests/test_outputs.py:36",
+   "msg": "constant `OVERGRANT_POLICIES` is defined but never used"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-grc-4",
+   "where": "tasks/task-grc-4/README.md",
+   "msg": "README/instruction contain 7 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-grc-5",
+   "where": "tasks/task-grc-5/README.md",
+   "msg": "README/instruction contain 16 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-grc-6",
+   "where": "tasks/task-grc-6/README.md",
+   "msg": "README/instruction contain 6 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-7",
+   "where": "tasks/task-grc-7/tests/test_outputs.py:9",
+   "msg": "constant `INACTIVE` is defined but never used"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-grc-7",
+   "where": "tasks/task-grc-7/README.md",
+   "msg": "README/instruction contain 5 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-8",
+   "where": "tasks/task-grc-8/tests/test_outputs.py:10",
+   "msg": "constant `BP_TARGETS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-8",
+   "where": "tasks/task-grc-8/tests/test_outputs.py:12",
+   "msg": "constant `COLLAB_TARGETS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-8",
+   "where": "tasks/task-grc-8/tests/test_outputs.py:14",
+   "msg": "constant `KEY_TARGETS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-grc-8",
+   "where": "tasks/task-grc-8/tests/test_outputs.py:16",
+   "msg": "constant `OUTSIDE_TARGETS` is defined but never used"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-grc-8",
+   "where": "tasks/task-grc-8/README.md",
+   "msg": "README/instruction contain 8 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "UNUSED_ARG_IN_CHECK",
+   "task": "task-iam-12",
+   "where": "tasks/task-iam-12/tests/test_outputs.py:112",
+   "msg": "`_mk_test(key, keep, toxic)` never reads `keep`, so nothing about `keep` is asserted"
+  },
+  {
+   "kind": "ORACLE_CHECKS_MORE",
+   "task": "task-iam-12",
+   "where": "tasks/task-iam-12/solution/solution.py",
+   "msg": "oracle read-back checks restraint (L215 '%s: primary %s preserved', L216 '%s: still active', L219 '%s: legitimate duties preserved (lost=%s)', L225 'compensating-control %s keeps both halves') but no verifier check looks like a guard"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-iam-12",
+   "where": "tasks/task-iam-12/README.md",
+   "msg": "README/instruction contain 8 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-iam-13",
+   "where": "tasks/task-iam-13/tests/test_outputs.py:18",
+   "msg": "constant `COHORT` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-iam-13",
+   "where": "tasks/task-iam-13/tests/test_outputs.py:20",
+   "msg": "constant `SUSPENDED` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-iam-13",
+   "where": "tasks/task-iam-13/tests/test_outputs.py:21",
+   "msg": "constant `MFA_WIPED` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-iam-13",
+   "where": "tasks/task-iam-13/tests/test_outputs.py:22",
+   "msg": "constant `DELICENSED` is defined but never used"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-iam-13",
+   "where": "tasks/task-iam-13/README.md",
+   "msg": "README/instruction contain 8 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "ORACLE_CHECKS_MORE",
+   "task": "task-iam-14",
+   "where": "tasks/task-iam-14/solution/solution.py",
+   "msg": "oracle read-back checks restraint (L252 '[ctrl] tomas kept in Payments Platform Admins (exception)', L253 '[ctrl] dana kept github org admin (break-glass)', L254 '[ctrl] dana kept SUPER_ADMIN (break-glass)', L256 '[ctrl] marcus keeps engineer birthright (Payments Engineering)') but no verifier check looks like a guard"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-iam-14",
+   "where": "tasks/task-iam-14/README.md",
+   "msg": "README/instruction contain 9 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-iam-15",
+   "where": "tasks/task-iam-15/tests/test_outputs.py:66",
+   "msg": "helper `_okta_status()` is defined but never called"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-iam-15",
+   "where": "tasks/task-iam-15/README.md",
+   "msg": "README/instruction contain 5 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-iam-16",
+   "where": "tasks/task-iam-16/README.md",
+   "msg": "README/instruction contain 6 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-iam-17",
+   "where": "tasks/task-iam-17/tests/test_outputs.py:25",
+   "msg": "constant `N10` is defined but never used"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-iam-17",
+   "where": "tasks/task-iam-17/README.md",
+   "msg": "README/instruction contain 10 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "ORACLE_CHECKS_MORE",
+   "task": "task-iam-19",
+   "where": "tasks/task-iam-19/solution/solution.py",
+   "msg": "oracle read-back checks restraint (L227 'break-glass account still ACTIVE', L228 'break-glass keeps SUPER_ADMIN') but no verifier check looks like a guard"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-iam-19",
+   "where": "tasks/task-iam-19/README.md",
+   "msg": "README/instruction contain 3 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DOC_NAMES_MISSING_TEST",
+   "task": "task-n-1",
+   "where": "tasks/task-n-1/fairness.md",
+   "msg": "docs mention `test_change_closed` but tasks/task-n-1/tests/test_outputs.py defines no such test"
+  },
+  {
+   "kind": "DOC_NAMES_MISSING_TEST",
+   "task": "task-n-1",
+   "where": "tasks/task-n-1/fairness.md",
+   "msg": "docs mention `test_controls` but tasks/task-n-1/tests/test_outputs.py defines no such test"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-1",
+   "where": "tasks/task-n-1/tests/test_outputs.py:14",
+   "msg": "constant `CHG_SYS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-1",
+   "where": "tasks/task-n-1/tests/test_outputs.py:76",
+   "msg": "helper `_change_state()` is defined but never called"
+  },
+  {
+   "kind": "ORACLE_CHECKS_MORE",
+   "task": "task-n-1",
+   "where": "tasks/task-n-1/solution/solution.py",
+   "msg": "oracle read-back checks restraint (L240 'RESTRAINT %s still in service') but no verifier check looks like a guard"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-n-1",
+   "where": "tasks/task-n-1/README.md",
+   "msg": "README/instruction contain 7 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-n-10",
+   "where": "tasks/task-n-10/README.md",
+   "msg": "README/instruction contain 6 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-11",
+   "where": "tasks/task-n-11/tests/test_outputs.py:30",
+   "msg": "constant `GONE_HOSTS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-12",
+   "where": "tasks/task-n-12/tests/test_outputs.py:23",
+   "msg": "constant `SUBJECT_CDE` is defined but never used"
+  },
+  {
+   "kind": "ORACLE_CHECKS_MORE",
+   "task": "task-n-12",
+   "where": "tasks/task-n-12/solution/solution.py",
+   "msg": "oracle read-back checks restraint (L262 'NACL default deny intact (%s)', L287 'approved scanner exception kept on subject db SG') but no verifier check looks like a guard"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-n-12",
+   "where": "tasks/task-n-12/README.md",
+   "msg": "README/instruction contain 6 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-13",
+   "where": "tasks/task-n-13/tests/test_outputs.py:22",
+   "msg": "constant `ALIAS` is defined but never used"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-n-13",
+   "where": "tasks/task-n-13/README.md",
+   "msg": "README/instruction contain 7 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/tests/test_outputs.py:13",
+   "msg": "constant `CHK_INTER` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/tests/test_outputs.py:14",
+   "msg": "constant `CHK_FALL` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/tests/test_outputs.py:16",
+   "msg": "constant `WEIGHT0` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/tests/test_outputs.py:19",
+   "msg": "constant `MAXCONN_LOW` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/tests/test_outputs.py:22",
+   "msg": "constant `HEALTH_AGGR` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/tests/test_outputs.py:25",
+   "msg": "constant `CHECK_OFF` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/tests/test_outputs.py:27",
+   "msg": "constant `BALANCE_BROKEN` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/tests/test_outputs.py:28",
+   "msg": "constant `DRIFT_DRAINED` is defined but never used"
+  },
+  {
+   "kind": "SIBLINGS_UNCHECKED",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/environment/seed.json",
+   "msg": "haproxy.runtimeServers where parent_name='be_api_ws': verifier names 6 of 7 records; never mentions ['be_api_ws']"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-n-14",
+   "where": "tasks/task-n-14/README.md",
+   "msg": "README/instruction contain 7 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "SIBLINGS_UNCHECKED",
+   "task": "task-n-15",
+   "where": "tasks/task-n-15/environment/seed.json",
+   "msg": "aws-vpc.networkInterfaces where SubnetId='subnet-0app000000001': verifier names 6 of 8 records; never mentions ['eni-0000000000000015', 'eni-0000000000000016']"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-2",
+   "where": "tasks/task-n-2/tests/test_outputs.py:22",
+   "msg": "constant `LB_PORTS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-2",
+   "where": "tasks/task-n-2/tests/test_outputs.py:25",
+   "msg": "constant `DECOMMISSIONED` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-2",
+   "where": "tasks/task-n-2/tests/test_outputs.py:133",
+   "msg": "helper `_in()` is defined but never called"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-n-3",
+   "where": "tasks/task-n-3/README.md",
+   "msg": "README/instruction contain 6 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-4",
+   "where": "tasks/task-n-4/tests/test_outputs.py:29",
+   "msg": "constant `RETIRED_DNS_IPS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-4",
+   "where": "tasks/task-n-4/tests/test_outputs.py:33",
+   "msg": "constant `RETIRED_DEVICES` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-5",
+   "where": "tasks/task-n-5/tests/test_outputs.py:27",
+   "msg": "constant `VPC_SUPERNET` is defined but never used"
+  },
+  {
+   "kind": "ORACLE_CHECKS_MORE",
+   "task": "task-n-5",
+   "where": "tasks/task-n-5/solution/solution.py",
+   "msg": "oracle read-back checks restraint (L341 'api-gateway world 443 preserved', L366 'settlement RT keeps local route') but no verifier check looks like a guard"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-n-5",
+   "where": "tasks/task-n-5/README.md",
+   "msg": "README/instruction contain 5 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "SIBLINGS_UNCHECKED",
+   "task": "task-n-6",
+   "where": "tasks/task-n-6/environment/seed.json",
+   "msg": "aws-vpc.securityGroups where VpcId='vpc-0shared000001': verifier names 6 of 7 records; never mentions ['sg-0reportingdb1']"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-n-6",
+   "where": "tasks/task-n-6/README.md",
+   "msg": "README/instruction contain 3 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-7",
+   "where": "tasks/task-n-7/tests/test_outputs.py:18",
+   "msg": "constant `AFFECTED` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-7",
+   "where": "tasks/task-n-7/tests/test_outputs.py:19",
+   "msg": "constant `DNS_STALE` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-n-7",
+   "where": "tasks/task-n-7/tests/test_outputs.py:39",
+   "msg": "helper `_bind_cert()` is defined but never called"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-n-8",
+   "where": "tasks/task-n-8/README.md",
+   "msg": "README/instruction contain 6 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-ops-1",
+   "where": "tasks/task-ops-1/README.md",
+   "msg": "README/instruction contain 5 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-ops-2",
+   "where": "tasks/task-ops-2/README.md",
+   "msg": "README/instruction contain 4 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-ops-3",
+   "where": "tasks/task-ops-3/README.md",
+   "msg": "README/instruction contain 9 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ops-4",
+   "where": "tasks/task-ops-4/tests/test_outputs.py:15",
+   "msg": "constant `SCORED_VIOLATIONS` is defined but never used"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ops-4",
+   "where": "tasks/task-ops-4/tests/test_outputs.py:18",
+   "msg": "constant `SCORED_COMPLIANT` is defined but never used"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-ops-4",
+   "where": "tasks/task-ops-4/README.md",
+   "msg": "README/instruction contain 10 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  },
+  {
+   "kind": "DEAD_VERIFIER_CODE",
+   "task": "task-ops-5",
+   "where": "tasks/task-ops-5/tests/test_outputs.py:51",
+   "msg": "helper `_severe_done()` is defined but never called"
+  },
+  {
+   "kind": "RESTRAINT_UNGUARDED",
+   "task": "task-ops-5",
+   "where": "tasks/task-ops-5/README.md",
+   "msg": "README/instruction contain 14 restraint phrases (do not / preserve / leave unchanged...) but 0 guard-like checks"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+
+=== task-a-1  agent=a1-skip-two-tokens  (4.8s)
+    what it does wrong: Oracle, but it leaves 2 of Dana's 13 third-party OAuth tokens (Expensify, QuickBooks) in place. The legal-hold runbook in the seed says 'Revoke all third-party OAuth tokens'.
+    change vs oracle:
+      -        if not client:
+      +        if not client or client in ("expensify.com", "quickbooks.intuit.com"):
+    EVIDENCE: Dana still has tokens for ['expensify.com', 'quickbooks.intuit.com']
+    verifier: 20/20 checks -> PASS (reward 1)   <-- FALSE PASS: verifier rewards a policy the task says is wrong
+
+=== task-n-1  agent=n1-tear-down-live-host  (4.5s)
+    what it does wrong: Oracle, but with its 'is this host really out of service?' check disabled, so it also decommissions billing-report-06, which the README says is still live and 'must not be changed'.
+    change vs oracle:
+      -FRESH_DAYS = 30
+      +FRESH_DAYS = -100000   # treat every listed host as stale
+    EVIDENCE: live host billing-report-06 archived = True
+    verifier: 25/25 checks -> PASS (reward 1)   <-- FALSE PASS: verifier rewards a policy the task says is wrong
+
+=== task-iam-12  agent=iam12-blunt  (4.4s)
+    what it does wrong: A 20-line script with no investigation: delete EVERY permission-set assignment in the Salesforce org, then close the finding. The README says to make 'only the changes that are actually required'.
+    EVIDENCE: deleted 77 of 77 assignments, held by 71 different users (finding concerns 24 violators)
+    verifier: 25/25 checks -> PASS (reward 1)   <-- FALSE PASS: verifier rewards a policy the task says is wrong
+
+=== task-c2  agent=c2-extra-exclusion  (3.4s)
+    what it does wrong: Oracle, but when it fixes the tampered Defender baseline it ADDS a build-cache exclusion and keeps the attacker's payload exclusion C:\ProgramData\VireoSync.
+    change vs oracle:
+      -  '{"defenderRequireRealTimeMonitoring":true,"defenderFilesAndFoldersToExclude":[]}' >/dev/null
+      +  '{"defenderRequireRealTimeMonitoring":true,"defenderFilesAndFoldersToExclude":["C:\\ProgramData\\VireoSync","D:\\BuildCache"]}' >/dev/null
+    {"EVIDENCE_exclusions":["C:\\ProgramData\\VireoSync","D:\\BuildCache"]}
+    verifier: 6/6 checks -> PASS (reward 1)   <-- FALSE PASS: verifier rewards a policy the task says is wrong
+
+=== task-b1  agent=b1-says-no-escalation  (6.7s)
+    what it does wrong: Oracle, but its Slack message says the opposite of an escalation: 'no need to escalate to security'. Graded by a keyword regex.
+    change vs oracle:
+      +MSG="FYI: no need to escalate to security, the Okta token churn is handled."
+    verifier: 9/9 checks -> PASS (reward 1)   <-- FALSE PASS: verifier rewards a policy the task says is wrong
+
+5 of 5 mutants got reward 1. Saved results/demo_probes.json
+python3 live_probe.py --demo --workers 5  1.52s user 0.99s system 35% cpu 6.973 total
