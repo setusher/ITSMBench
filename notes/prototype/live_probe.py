@@ -321,6 +321,8 @@ def probe(task: str, agent: str) -> dict:
             sol = task_dir / "solution"
         elif agent in MUTANTS:
             sol, diff = build_mutant(agent, Path(tmp))
+        elif agent != "null":                    # never silently run a typo as the null agent
+            raise ValueError(f"unknown agent {agent!r}")
         with World(task_dir) as w:
             agent_log = run_agent(w, fam, sol)
             m = MUTANTS.get(agent, {})
@@ -387,7 +389,15 @@ def main() -> None:
 
     if args.demo or args.task:
         jobs = ([(MUTANTS[k]["task"], k) for k in DEMO] if args.demo
-                else [(args.task, a) for a in args.agents.split(",")])
+                else [(args.task, a.strip()) for a in args.agents.split(",")])
+        # Check names before starting any container: a typo must be an error, not a "null" run.
+        for task, agent in jobs:
+            if not (TASKS / task / "task.toml").exists():
+                ap.error(f"unknown task {task!r} (expected a folder name under tasks/, e.g. task-n-1)")
+            if agent not in ("null", "oracle") and agent not in MUTANTS:
+                ap.error(f"unknown agent {agent!r}. Valid: null, oracle, " + ", ".join(MUTANTS))
+            if agent in MUTANTS and MUTANTS[agent]["task"] != task:
+                ap.error(f"mutant {agent!r} belongs to {MUTANTS[agent]['task']}, not {task}")
         recs = []
         with cf.ThreadPoolExecutor(max_workers=args.workers) as ex:
             for rec in ex.map(lambda j: probe(*j), jobs):
