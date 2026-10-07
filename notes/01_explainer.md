@@ -225,10 +225,12 @@ format/bookkeeping checks, no untouched-data guards, no runbook" (`tasks/task-c2
   batch drifts" (`tasks/task-c2/task_construction.json:22`). All 16 taskgen READMEs report one
   `gpt-5.6-sol / xhigh / pi` run. 14 of 16 say FAIL, and 7 report exactly 7/14 assertions.
 - Some abhishek203 tasks went through a written fairness audit: `tasks/task-n-1/fairness.md` checks
-  that "a cold oracle reaches the whole scored set ... with zero hardcoded ids" (L3-6). It reports
-  "26/26 scored + 15/15 controls" (L10), where the controls are explicitly "unscored" (L53). The
+  that "a cold oracle reaches the whole scored set ... with zero hardcoded ids" (L5-6). It reports
+  "26/26 scored + 15/15 controls" (L10-11). It counts the 15 controls separately from the 26 scored
+  checks (L129-130, L140-144), and calls the live-host check an "unscored guard" (L53). The
   shipped `tests/test_outputs.py` has 25 checks: no `test_change_closed` (listed at L52) and no
-  controls at all. So the live host the README says "must not be changed" is never checked.
+  controls at all. So the live host the README says "must not be changed" is never checked, and
+  even in the audit's own design that check would not have counted toward the reward.
 - Atomicwork's page says "IT experts and the benchmark team wrote them together" and "Every task also
   ships with a solution we run ourselves, and if it doesn't pass every check, we don't ship the task"
   (https://www.atomicwork.com/itsm-bench).
